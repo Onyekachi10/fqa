@@ -253,8 +253,9 @@ button {
 }
 
 
-@media screen and (man-width:400px){
- div.back__image {
+@media screen and (max-width:400px){
+    
+    div.back__image {
         background: 
         url("./images/illustration-woman-online-mobile.svg")no-repeat;
         background-size: 200px;
@@ -276,4 +277,5 @@ button {
         text-align: center;
         font-size: 30px;
       }
+   
 }
