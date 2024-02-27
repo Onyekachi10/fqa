@@ -253,8 +253,8 @@ button {
 }
 
 
-@media screen and (min-width:360px){
-       div.back__image {
+@media screen and (man-width:400px){
+ div.back__image {
         background: 
         url("./images/illustration-woman-online-mobile.svg")no-repeat;
         background-size: 200px;
@@ -267,7 +267,13 @@ button {
     }
     button.FAQ-items,hr {
         position: relative;
-        bottom: 120%;
+        bottom: 143%;
     }
-   
+
+    h1 {
+        position: relative;
+        bottom: 38pc;
+        text-align: center;
+        font-size: 30px;
+      }
 }
