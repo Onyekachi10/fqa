@@ -277,5 +277,23 @@ button {
         text-align: center;
         font-size: 30px;
       }
+         img.show {
+        display: block;
+        max-width: 100%;
+        position: relative;
+        left: 17pc;
+        bottom: 40px;
+        width: 20px;
+        transition: all 0.3s;
+    }
    
+    img.hide{
+        display: block;
+        max-width: 100%;
+        position: relative;
+        left: 17pc;
+        bottom: 40px;
+        width: 20px;
+        transition: all 0.3s;
+    }
 }
